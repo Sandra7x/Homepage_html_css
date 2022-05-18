@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nacionālie parki Latvijā</title>
+        <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+        <link rel="stylesheet" href=css/styles.css>
+        <link rel="stylesheet" href=css/table.css>
+        <link rel="stylesheet" href=css/text.css>
+        <link rel="stylesheet" href=css/grid.css>  
+    </head>
+
+    <body>
+
+        <div class="grid-container"> 
+
+            <div class=" grid-item grid-item-1-sliteres">
+                <div class="nav-bar">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="logo.png" alt="logo">
+                    </a>
+                    <nav>
+                        <ul class="navbar-list">
+                            <button><li class="navbar-btn"><a href="index.html">Sākums</a></li> </button>
+                            <button><li class="navbar-btn"><a href="gaujas.html">Gaujas Nacionālais parks</a></li></button>
+                            <button><li class="navbar-btn"><a href="kemeru.html">Ķemeru Nacionālais parks</a></li></button>
+                            <button><li class="navbar-btn"><a href="raznas.html">Rāznas Nacionālais parks</a></li></button>
+                            <button><li class="navbar-btn"><a href="sliteres.html">Slīteres Nacionālais parks</a></li></button>
+                        </ul>
+                    </nav>
+                </div>    
+            </div> 
+        
+            <div class=" grid-item grid-item-2-sliteres">
+                <div class="main-img">
+                    <img src="img/slīteres.jpg" alt="Slīteres">
+                </div>
+            </div>
+
+            <div class=" grid-item grid-item-3-sliteres">
+                <div class="title">
+                    <h1>Slīteres Nacionālais parks</h2>
+                        <br>
+                    <p>Baltijas jūras apskalotajā Ziemeļkurzemes pussalā atrodas Slīteres Nacionālais parks, kur jūra, platlapju meži, purvi un mitraines mijas ar boreāliem mežiem un melnalkšņu dumbrājiem, radot vienreizēji krāšņu ainavu.</p>
+                </div>
+            </div>
+
+            <hr>
+            <hr>
+
+            <div class=" grid-item grid-item-4-sliteres">
+                <div class="info">
+                    <h2>Mājaslapa tiek papildināta</h2>
+                    <video src="video/grass.mp4" height="200" width="350" controls>
+                </div>
+            </div>
+
+            <div class=" grid-item grid-item-5-sliteres">
+                <div class="form-free-text">
+                    <form >
+                        <label for="name-input">Vārds</label>
+                            <input type="text" name="Vārds" id="name-input" placeholder="Ievadiet savu vārdu" required>
+                        <label for="lastname-input">Uzvārds</label>
+                            <input type="text" name="Uzvārds" id="lastname-input" placeholder="Ievadiet savu uzvārdu">
+                        <br>
+                        <label for="email-input">E-pasts</label>
+                            <input type="text" name="E-pasts" id="email-input"placeholder="Ievadiet savu e-pastu" required>
+                        <br>
+                        <label for="choose-park" >Izvēlieties tēmu</label>
+                   
+                        <select>
+                            <option value="another"><br></option>
+                            <option value="gaujas-nacionalais-parks">Gaujas Nacionālais parks</option>
+                            <option value="kemeru-nacionalais-parks">Ķemeru Nacionālais parks</option>
+                            <option value="raznas-nacionalais-parks">Rāznas Nacionālais parks</option>
+                            <option value="sliteres-nacionalais-parks">Slīteres Nacionālais parks</option>
+                        </select>
+                        <br>
+                        <textarea name="text" cols="65" rows="10" placeholder="Ierakstiet ziņu" required minlength="10"></textarea>  
+                            <input type="submit" value="Nosūtīt ziņu"> 
+                    </form>
+                </div>
+            </div>   
+        </div>     
+    </body>
+    
+    <footer>
+        <div class=" grid-item grid-item-6-sliteres">
+            <div id="footer">
+                <h5>Izveidoja: Sandra Rumpāne</h5>
+            </div>
+        </div>
+    </footer>
+</html>
